@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+*{box-sizing: border-box; margin: 0px;padding: 0px;font-family: "Cairo";
+scroll-behavior: smooth ;
+}
+header{
+display:flex;
+justify-content: space-between;
+align-items: center;
+background-color:#2c3e50;
+padding: 10px 100px;
+border-top: solid crimson;
+color:white;
+position:fixed;
+width:  100%;
+z-index: 1000;
+}
+header a
+{
+    text-decoration: none;
+    margin-right: 10px; ;
+    color:white;
+    transition: ease;
+    margin: 5px;
+    border-radius: 5px;
+    display:inline-block;
+    margin: 10px;
+}
+
+header a:hover{color: #1ab;transition: .5s; }
+
+section{ height: 100vh;
+display: flex;
+padding:0px 100px;
+align-items: center;
+background-image: url(123.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-blend-mode: overlay;
+background-color: hsla(0, 0%, 0%, 0.055);
+color: white;
+background-position: center;
+
+} 
+section span{color: crimson;}
+
+section a{ background-color: aqua;text-decoration: none;padding: 10px;
+border-radius: 10px;transition: ease 0.5s;display: inline-block;margin: 5px;
+}
+section a:hover{background-color: rgba(95, 231, 222, 0.493);transform:scale(1,1.2) ;}
+.services{
+text-align: center;
+}
+ .services .container{display: flex;
+    flex-wrap: wrap;
+padding: 0px 80px;
+justify-content: center;
+}
+.services .card{
+margin-right: 20px;
+box-shadow: 3px 3px 6px 6px #ccc; 
+padding: 10px;
+width: 30%;
+margin: 10px;
+text-align: center;
+}
+.services h2{color: crimson;}
+.card h3{ color: crimson;}
+.fa{ font-size: 40px;color: rgb(77, 114, 194);}
+
+.portofolio{background-color: #2c3e50;}
+.portofolio .card{background-color: white;box-shadow: none;
+border-radius: 15px;
+
+}
+.portofolio h1{ border-bottom: solid crimson;display: inline-block;color: aliceblue;}
+.portofolio button{border-radius: 10px; background-color: aquamarine;
+padding: 5px;border: none;cursor: pointer;transition: .5s ease;}
+.portofolio button:hover{transform: scale(1,1.2);}
+.portofolio img{width: 100%; background-size:cover ; margin: 0px;}
+.noutella{display: flex; padding: 50px 100px;align-items: center;}
+.noutella img{width: 40%; margin: 15px;border-radius: 15px;overflow: hidden;}
+.noutella-desk{width: 60%;margin: 15px;}
+footer{ background-color:rgba(0, 0, 0, 0.863); text-align: center; border-bottom: #ccc
+    ; padding:0px 300px;display: flex;justify-content:center;align-items: center;
+padding: 10%;
+color: aliceblue;
+}
+footer span{ margin: 10px;}
+   /* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(78, 214, 214); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+  .up{ position: fixed;bottom: 50px; right: 20px;
+    font-size:xx-large
+    
+}
+.map{width: 100%;}
+.frame{width: 100%;}
+
+
+
+
+.form{background: rgb(3,229,232);
+    background: linear-gradient(0deg, rgba(3,229,232,1) 0%, rgba(63,59,184,1) 100%);
+padding: 100px;
+
+
+}
+.form h2{display: inline-block; border-bottom:solid whitesmoke; margin-bottom: 20%;}
+
+.form .input1 {display: flex; justify-content: center;}
+
+.form .input1 .in1{ width: 100%;height: 40px; position: relative;margin-right: 10px;}
+.form .input1  .in11{ position: absolute;left: 120px;}
+
+
+.form .input1 .in2{ width: 100%;height: 40px; position: relative;margin-left: 10px;}
+.form .input1  .in22{ position: absolute;left: 520px;}
+
+
+.form .input2 {display: flex; justify-content: center;}
+
+.form .input2 .in1{ width: 100%;height: 40px; position: relative;margin-right: 10px;}
+.form .input2  .in11{ position: absolute;left: 120px;}
+
+
+.form .input2 .in2{ width: 100%;height: 40px; position: relative;margin-left: 10px;}
+.form .input2  .in22{ position: absolute;left: 520px;}
+
+.form .input3 input{ width: 100%; position: relative;}
+.form .input3  label{ position: absolute;left: 110px;}
